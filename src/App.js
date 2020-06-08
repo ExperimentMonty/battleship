@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Board from "./Board";
 
 function App() {
   return (
     <div className="App">
-      <header>BATTLESHIP</header>
+        <header>BATTLESHIP</header>
+        <Board />
     </div>
   );
 }

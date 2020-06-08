@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import {Square, STATUS} from './Square'
+import {Square, STATUS} from './Square';
 
 test('Renders X when hit', () => {
     const { getByText } = render(<Square status={STATUS.HIT} />);
